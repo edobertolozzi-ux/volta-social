@@ -47,7 +47,10 @@ openrouter.ai
 cdn.playwright.dev
 playwright.download.prss.microsoft.com
 playwright.azureedge.net
+*.googleapis.com
+*.googleusercontent.com
 ```
+(gli ultimi due servono a rclone per leggere e scrivere su Google Drive)
 (se un cliente usa Dropbox aggiungi anche `api.dropboxapi.com` e `content.dropboxapi.com`)
 
 **Environment variables** (una per riga):
